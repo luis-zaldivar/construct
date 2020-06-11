@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="287189086080353">
+            <conditions>
+                <condition id="0" name="On clicked" sid="376027105167581" type="Button2" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="264403581649329" type="Text">
+                    <param id="0" name="Text">&quot;hola mundo&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
