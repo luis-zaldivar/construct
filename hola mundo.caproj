@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>New project</name>
+    <name>hola mundo</name>
     <description></description>
     <version>1.0.0.0</version>
     <author></author>
@@ -49,6 +49,9 @@
         </object-type>
         <object-type name="Button2" sid="823700359966745">
             <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="SiNo" sid="209408457333086" type="number" />
+            </instance-variables>
         </object-type>
     </object-folder>
     <families />

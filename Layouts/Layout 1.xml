@@ -67,6 +67,9 @@
                         <id-optional></id-optional>
                         <checked>No</checked>
                     </properties>
+                    <instance-variables>
+                        <SiNo>0</SiNo>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

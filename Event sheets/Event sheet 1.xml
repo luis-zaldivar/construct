@@ -3,13 +3,42 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <event-block sid="287189086080353">
+        <event-block sid="562203657886813">
             <conditions>
-                <condition id="0" name="On clicked" sid="376027105167581" type="Button2" />
+                <condition id="0" name="On clicked" sid="150838904272616" type="Button2" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="264403581649329" type="Text">
-                    <param id="0" name="Text">&quot;hola mundo&quot;</param>
+                <action id="0" name="Set text" sid="512839963899890" type="Text">
+                    <param id="0" name="Text">&quot;hola&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="784559639103281" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-10" name="Set value" sid="238677115666633" type="Button2">
+                    <param id="0" name="Instance variable">SiNo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="683228401216489">
+            <conditions>
+                <condition id="0" name="On clicked" sid="557900959314179" type="Button2" />
+                <condition id="-7" name="Compare instance variable" sid="613648614313211" type="Button2">
+                    <param id="0" name="Instance variable">SiNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="460782994867994" type="Text">
+                    <param id="0" name="Text">&quot;adios&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="503095622068509" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-10" name="Set value" sid="153887223682440" type="Button2">
+                    <param id="0" name="Instance variable">SiNo</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
