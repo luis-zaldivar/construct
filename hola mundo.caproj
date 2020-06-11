@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -52,6 +53,33 @@
             <instance-variables>
                 <instance-variable name="SiNo" sid="209408457333086" type="number" />
             </instance-variables>
+        </object-type>
+        <object-type name="Text2" sid="599782170493538">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="833208856057464">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="n1" sid="611083881266971">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="n2" sid="939943518860441">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="s" sid="854536556859201">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="r" sid="851035920371670">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="d" sid="593331950881333">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="m" sid="310343247790248">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="resultado" sid="668050111288358">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

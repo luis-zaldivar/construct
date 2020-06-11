@@ -3,42 +3,77 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <event-block sid="562203657886813">
+        <variable constant="0" name="mostrar" sid="129704485517110" static="0" type="number">0</variable>
+        <variable constant="0" name="n2" sid="106756545868982" static="0" type="number">0</variable>
+        <variable constant="0" name="n1" sid="190500070271046" static="0" type="number">0</variable>
+        <event-block sid="319653403581303">
             <conditions>
-                <condition id="0" name="On clicked" sid="150838904272616" type="Button2" />
+                <condition id="-1" name="Every tick" sid="101738518844843" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="512839963899890" type="Text">
-                    <param id="0" name="Text">&quot;hola&quot;</param>
+                <action id="-9" name="Set value" sid="941013101658279" type="System">
+                    <param id="0" name="Variable">n1</param>
+                    <param id="1" name="Value">n1.Text</param>
                 </action>
-                <action id="-16" name="Wait" sid="784559639103281" type="System">
-                    <param id="0" name="Seconds">0.1</param>
-                </action>
-                <action id="-10" name="Set value" sid="238677115666633" type="Button2">
-                    <param id="0" name="Instance variable">SiNo</param>
-                    <param id="1" name="Value">1</param>
+                <action id="-9" name="Set value" sid="118803019749673" type="System">
+                    <param id="0" name="Variable">n2</param>
+                    <param id="1" name="Value">n2.Text</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="683228401216489">
+        <event-block sid="272125873419340">
             <conditions>
-                <condition id="0" name="On clicked" sid="557900959314179" type="Button2" />
-                <condition id="-7" name="Compare instance variable" sid="613648614313211" type="Button2">
-                    <param id="0" name="Instance variable">SiNo</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
+                <condition id="0" name="On clicked" sid="599048737496493" type="d" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="460782994867994" type="Text">
-                    <param id="0" name="Text">&quot;adios&quot;</param>
+                <action id="-9" name="Set value" sid="673342819999005" type="System">
+                    <param id="0" name="Variable">mostrar</param>
+                    <param id="1" name="Value">n1/n2</param>
                 </action>
-                <action id="-16" name="Wait" sid="503095622068509" type="System">
-                    <param id="0" name="Seconds">0.1</param>
+                <action id="0" name="Set text" sid="862315667726029" type="resultado">
+                    <param id="0" name="Text">mostrar</param>
                 </action>
-                <action id="-10" name="Set value" sid="153887223682440" type="Button2">
-                    <param id="0" name="Instance variable">SiNo</param>
-                    <param id="1" name="Value">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="409926322784407">
+            <conditions>
+                <condition id="0" name="On clicked" sid="926402686496308" type="m" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="677794578038410" type="System">
+                    <param id="0" name="Variable">mostrar</param>
+                    <param id="1" name="Value">n1*n2</param>
+                </action>
+                <action id="0" name="Set text" sid="912177092267277" type="resultado">
+                    <param id="0" name="Text">mostrar</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="874793487476068">
+            <conditions>
+                <condition id="0" name="On clicked" sid="379688896398009" type="r" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="654980292078162" type="System">
+                    <param id="0" name="Variable">mostrar</param>
+                    <param id="1" name="Value">n1-n2</param>
+                </action>
+                <action id="0" name="Set text" sid="439376951297688" type="resultado">
+                    <param id="0" name="Text">mostrar</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="619268490672446">
+            <conditions>
+                <condition id="0" name="On clicked" sid="321464147826459" type="s" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="672173315553276" type="System">
+                    <param id="0" name="Variable">mostrar</param>
+                    <param id="1" name="Value">n1+n2</param>
+                </action>
+                <action id="0" name="Set text" sid="267765517621453" type="resultado">
+                    <param id="0" name="Text">mostrar</param>
                 </action>
             </actions>
         </event-block>
